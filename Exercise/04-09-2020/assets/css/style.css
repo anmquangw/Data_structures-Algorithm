@@ -28,7 +28,7 @@
     justify-content: space-between;
 }
 
-input{
+button, input{
 	color: #fbfcfd;
 	padding: 10px 25px;
 	background: transparent;
@@ -36,6 +36,22 @@ input{
 	border-radius: 20px;
 	outline: none;
 	cursor: pointer;
+}
+
+.content{
+	color: #fbfcfd;
+	position: absolute;
+	top: 50%;
+	left: 8%;
+	transform: translateY(-50%);
+	z-index: 2;
+
+}
+
+h1{
+	font-size: 70px;
+	margin: 40% 0 100px;
+	line-height: 80px;
 }
 
 .side-bar{
