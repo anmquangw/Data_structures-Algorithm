@@ -1,10 +1,17 @@
 #include<iostream>
 using namespace std;
 
-int quickSort(int a[], int head, int n){
-	int x = a[n]
+int x, j = 0;
+
+int quickSort(int a[], int n){
+	if( a[j] > x){
+		
+	}
+
+	else if( j == n )
+
+
 	quickSort(a, n);
-	return 0;
 }
 
 main(){
@@ -14,7 +21,7 @@ main(){
 		cout << "a[" << i << "] = "; cin >> a[i];
 	}
 
-	quickSort(a, 0, n);
+	quickSort(a, n);
 
 	cout << "day sau khi duoc sap xep\n";
 	for (int i = 0; i < n; ++i)

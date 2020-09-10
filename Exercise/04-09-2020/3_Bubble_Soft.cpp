@@ -11,6 +11,12 @@ int bubbleSoft(int a[], int n){
 	}
 	j++;
 	if ( j < n ) bubbleSoft(a, n);
+	else if ( j == n ){
+		j = 1;
+		n--;
+		if (n == 0) return 0;
+		bubbleSoft(a, n);
+	}
 	return 0;
 }
 
