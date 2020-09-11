@@ -1,17 +1,8 @@
 #include<iostream>
 using namespace std;
 
-int x, j = 0;
-
-int quickSort(int a[], int n){
-	if( a[j] > x){
-		swap(a[j], a[n]);		
-	}
-
-	else if( j == n ) return 0;
-
-
-	quickSort(a, n);
+int mergeSort(int a[], int n){
+	mergeSort(a, n);
 }
 
 main(){
@@ -21,8 +12,8 @@ main(){
 		cout << "a[" << i << "] = "; cin >> a[i];
 	}
 
-	quickSort(a, n);
-
+	mergeSort(a, n);
+	
 	cout << "day sau khi duoc sap xep\n";
 	for (int i = 0; i < n; ++i)
 		cout << a[i] << " ";

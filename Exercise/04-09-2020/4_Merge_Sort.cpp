@@ -2,7 +2,11 @@
 using namespace std;
 
 int mergeSort(int a[], int n){
-	mergeSort(a, n);
+	for (int i = 0; i < count; ++i)
+	{
+		/* code */
+	}
+	return 0;
 }
 
 main(){

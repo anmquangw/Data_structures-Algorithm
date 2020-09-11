@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>04-09-2020</title>
+	<link rel="icon" href="https://www.gocbao.com/wp-content/uploads/2020/04/hinh-anh-mat-cuoi.jpg">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+	<div class="hero" width="100%" controls id="myvideo">
+		
+		<div class="navbar">
+
+			<img src="assets/img/logo.png" class="logo">
+			<input type="button" onclick="location.href='http://fb.com/BQH17112000';" value="FaceBook" />
+
+		</div>
+
+		<div class="content">
+
+			<h1>Bài tập<br>Ngày 04-09-2020</h1>
+			<button onclick="openFullscreen();">Mở trang web trong chế độ toàn màn hình</button>
+
+		</div>
+		
+		<div class="side-bar">
+
+			<img src="assets/img/menu.png" class="menu">
+
+			<div class="social-links">
+
+				<a href="1_Selection_Sort.cpp"><img src="assets/img/1.png"></a>
+				<a href="2_Insertion_Sort.cpp"><img src="assets/img/2.png"></a>
+				<a href="3_Bubble_Soft.cpp"><img src="assets/img/3.png"></a>
+				<a href="4_Merge_Sort.cpp"><img src="assets/img/4.png"></a>
+				<a href="5_Quick_Sort.cpp"><img src="assets/img/5.png"></a>
+				
+			</div>
+
+		</div>
+
+		<div class="bubbles">
+			<img src="assets/img/bubble.png">
+			<img src="assets/img/bubble.png">
+			<img src="assets/img/bubble.png">
+			<img src="assets/img/bubble.png">
+			<img src="assets/img/bubble.png">
+			<img src="assets/img/bubble.png">
+			<img src="assets/img/bubble.png">
+		</div>
+
+	</div>
+
+	<script>
+  	var elem = document.getElementById("myvideo");
+	    function openFullscreen() {
+	      if (elem.requestFullscreen) {
+	        elem.requestFullscreen();
+	      }
+	      else if (elem.mozRequestFullScreen) { /* Firefox */
+	        elem.mozRequestFullScreen();
+	      }
+	      else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+	        elem.webkitRequestFullscreen();
+	      }
+	      else if (elem.msRequestFullscreen) { /* IE/Edge */
+	        elem.msRequestFullscreen();
+	      }
+	    }
+  	</script>
+
+</body>
+
+</html>

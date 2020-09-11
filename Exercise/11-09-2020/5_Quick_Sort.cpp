@@ -5,10 +5,10 @@ int x, j = 0;
 
 int quickSort(int a[], int n){
 	if( a[j] > x){
-		swap(a[j], a[n]);		
+		
 	}
 
-	else if( j == n ) return 0;
+	else if( j == n )
 
 
 	quickSort(a, n);
